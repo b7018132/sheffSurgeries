@@ -8,6 +8,10 @@ class Prescription {
 	Date dateIssued
 	Boolean patientPaying
 
+	String toString(){
+	return prescripNumber
+	}
+	
     static constraints = {
 	pharmacyName nullable: false, blank: false
 	prescripNumber nullable: false, blank: false, unique:true

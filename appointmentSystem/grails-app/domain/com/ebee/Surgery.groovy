@@ -12,6 +12,12 @@ class Surgery {
 	float closingTime
 	Boolean registeringNewPatients
 
+	static hasMany=[doctors:Doctor, receptionists:Receptionist, nurses:Nurse, patients:Patient, appointments:Appointment]
+
+	String toString(){
+	return name
+	}
+
 
 
     static constraints = {

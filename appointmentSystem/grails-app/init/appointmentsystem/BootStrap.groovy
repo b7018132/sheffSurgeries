@@ -3,7 +3,7 @@ package com.ebee
 class BootStrap {
 
     def init = { servletContext ->
-	def doctorJones=new Doctor(
+	/* def doctorJones=new Doctor(
 	doctorName: 'Jonathor Jones',
 	qualifications: 'A-Level',
 	position: 'Dr',
@@ -111,13 +111,19 @@ class BootStrap {
 	appDate: new Date('16/01/2019'),
 	appTime: 15.00,
 	appDuration: 45,
-	roomNumber: '13402').save()
+	roomNumber: '13402',
+	patientName: Joe).save()
 
 	def brokenarm=new Appointment(
 	appDate: new Date('16/01/2009'),
 	appTime: 14.00,
 	appDuration: 45,
-	roomNumber: '13402').save()
+	roomNumber: '13402',
+	patientName: Bryn).save()
+
+
+patientName:Joe
+brokenleg.addToSurgeries(sharrow) */
 
 
     }
